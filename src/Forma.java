@@ -1,6 +1,6 @@
 public abstract class Forma {
-    private int base;
-    private int altezza;
+    private final int base;
+    private final int altezza;
 
     public Forma(int base, int altezza){
         this.base = base;
